@@ -28,6 +28,8 @@
 
     <!--##########################################CAPITULO 300##################################-->
     <string name="capitulo300">CAPÍTULO 300: CARACTERÍSTICAS GENERALES DE LA PERSONA SELECCIONADA</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="cap300_discapacidad">DISCAPACIDAD</string>
     <!--pregunta 1-->
     <string name="cap300_pregunta1">1.¿TIENE USTED LIMITACIONES DE FORMA PERMANENTE, PARA:</string>
     <string name="c300p1_rpta1">1.Moverse o caminar para usar brazos o piernas?</string>
@@ -36,10 +38,14 @@
     <string name="c300p1_rpta4">4.Oír, aun usando audífonos?</string>
     <string name="c300p1_rpta5">5.Entender o aprender, concentrarse y recordar?</string>
     <string name="c300p1_rpta6">6.Relacionarse con los demás, por sus pensamientos, sentimientos, emociones o conductas?</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="cap300_educacion">EDUCACIÓN</string>
     <!--pregunta 2-->
     <string name="cap300_pregunta2">2.¿CUÁL ES EL ÚLTIMO AÑO DE ESTUDIOS O GRADO QUE APROBÓ</string>
     <!--pregunta 3-->
     <string name="cap300_pregunta3">3.ACTUALMENTE, ¿ASISTE A ALGUNA INSTITUCIÓN O PROGRAMA DE EDUCACIÓN BÁSICA (INICIAL, PRIMARIA O SECUNDARIA)?</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="cap300_autoidentificacion">AUTOIDENTIFICACIÓN ÉTNICA</string>
     <!--pregunta 4-->
     <string name="cap300_pregunta4">4.¿CUÁL ES EL IDIOMA O LENGUA MATERNA QUE APRENDIÓ EN SU NIÑEZ:</string>
     <string name="c300p4_rpta1">Quechua?</string>
@@ -61,18 +67,20 @@
     <string name="cap300_pregunta6">6.¿USTED PERTENECE O SE CONSIDERA PARTE DE UN PUEBLO INDÍGENA?</string>
     <!--pregunta 7-->
     <string name="cap300_pregunta7">7.¿A QUÉ PUEBLO INDÍGENA PERTENECE?</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="cap300_condicion">CONDICION DE ACTIVIDAD (OCUPADOS Y DESOCUPADOS)</string>
     <!--pregunta 8-->
     <string name="cap300_pregunta8_1">8.LA SEMANA PASADA DEL </string>
-    <string name="cap300_pregunta8_2">, ¿USTED, TUVO ALGÚN TRABAJO, SIN CONTAR LOS QUEHACERES DEL HOGAR?</string>
+    <string name="cap300_pregunta8_2">¿USTED, TUVO ALGÚN TRABAJO, SIN CONTAR LOS QUEHACERES DEL HOGAR?</string>
     <!--pregunta 9-->
     <string name="cap300_pregunta9_1">9.AUNQUE NO TRABAJÓ LA SEMANA PASADA DEL </string>
-    <string name="cap300_pregunta9_2">, ¿TIENE ALGÚN EMPLEO FIJO AL QUE PROXIMAMENTE VOLVERÁ?</string>
+    <string name="cap300_pregunta9_2">¿TIENE ALGÚN EMPLEO FIJO AL QUE PROXIMAMENTE VOLVERÁ?</string>
     <!--pregunta 10-->
     <string name="cap300_pregunta10_1">10.AUNQUE NO TRABAJÓ LA SEMANA PASADA DEL </string>
-    <string name="cap300_pregunta10_2">, ¿TIENE ALGÚN NEGOCIO PROPIO AL QUE PROXIMAMENTE VOLVERÁ?</string>
+    <string name="cap300_pregunta10_2">¿TIENE ALGÚN NEGOCIO PROPIO AL QUE PROXIMAMENTE VOLVERÁ?</string>
     <!--pregunta 11-->
     <string name="cap300_pregunta11_1">11.LA SEMANA PASADA DEL </string>
-    <string name="cap300_pregunta11_2">, ¿REALIZÓ ALGUNA ACTIVIDAD AL MENOS UNA HORA PARA OBTENER INGRESOS EN DINERO O EN ESPECIE, COMO:</string>
+    <string name="cap300_pregunta11_2">¿REALIZÓ ALGUNA ACTIVIDAD AL MENOS UNA HORA PARA OBTENER INGRESOS EN DINERO O EN ESPECIE, COMO:</string>
     <string name="c300p11_rpta1">1.Trabajando en algún negocio propio o de un familiar? </string>
     <string name="c300p11_rpta2">2.Ofreciendo algún servicio?</string>
     <string name="c300p11_rpta3">3.Haciendo algo en casa para vender?</string>
@@ -82,9 +90,11 @@
     <string name="c300p11_rpta7">7.Fabricando algún producto?</string>
     <string name="c300p11_rpta8">8.Realizando labores remuneradas en la chacra o cuidado de animales?</string>
     <string name="c300p11_rpta9">9.Ayudando a un familiar sin remuneración?</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="cap300_ocupados">OCUPADOS</string>
     <!--pregunta 12-->
     <string name="cap300_pregunta12_1">12.LA SEMANA PASADA DEL </string>
-    <string name="cap300_pregunta12_2"> ¿A QUÉ ACTIVIDAD SE DEDICÓ EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ?</string>
+    <string name="cap300_pregunta12_2">¿A QUÉ ACTIVIDAD SE DEDICÓ EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ?</string>
     <string name="c300p12_rpta1">Agrícola</string>
     <string name="c300p12_rpta2">Pecuaria</string>
     <string name="c300p12_rpta3">Forestal</string>
@@ -107,15 +117,17 @@
     <string name="c300p14_monetario">Monetario</string>
     <string name="c300p14_especie">En especie</string>
     <string name="c300p14_enteros">Soles (En enteros)</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="cap300_desocupados">DESOCUPADOS</string>
     <!--pregunta 15-->
     <string name="cap300_pregunta15_1">15.LA SEMANA PASADA DEL </string>
-    <string name="cap300_pregunta15_2">,  ¿USTED, QUERÍA TRABAJAR?</string>
+    <string name="cap300_pregunta15_2">¿USTED, QUERÍA TRABAJAR?</string>
     <!--pregunta 16-->
     <string name="cap300_pregunta16_1">16.LA SEMANA PASADA DEL </string>
-    <string name="cap300_pregunta16_2">,¿ESTUVO DISPONIBLE PARA TRABAJAR?</string>
+    <string name="cap300_pregunta16_2">¿ESTUVO DISPONIBLE PARA TRABAJAR?</string>
     <!--pregunta 17-->
     <string name="cap300_pregunta17_1">17.LA SEMANA PASADA DEL </string>
-    <string name="cap300_pregunta17_2">,¿HIZO ALGO PARA CONSEGUIR TRABAJO?</string>
+    <string name="cap300_pregunta17_2">¿HIZO ALGO PARA CONSEGUIR TRABAJO?</string>
     <!--pregunta 18-->
     <string name="cap300_pregunta18">18.¿CUÁNTAS SEMANAS HA ESTADO BUSCANDO TRABAJO SIN INTERRUPCIONES?</string>
     <string name="c300p18_numero_semanas">Número de semanas</string>

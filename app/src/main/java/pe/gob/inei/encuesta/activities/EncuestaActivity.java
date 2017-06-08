@@ -10,6 +10,7 @@ import android.os.Bundle;
 
 import pe.gob.inei.encuesta.R;
 import pe.gob.inei.encuesta.fragments.capitulo300.C300F1Fragment;
+import pe.gob.inei.encuesta.fragments.capitulo300.C300F2Fragment;
 
 public class EncuestaActivity extends AppCompatActivity {
     C300F1Fragment c300F1Fragment;

@@ -14,6 +14,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/layout_margin">
             <TextView
+                android:layout_marginBottom="@dimen/layout_margin"
                 android:padding="10dp"
                 android:textColor="@color/icons"
                 android:textStyle="bold"
@@ -25,7 +26,7 @@
                 android:text="@string/capitulo300"
                 />
             <LinearLayout
-                android:layout_marginTop="@dimen/layout_margin"
+                android:layout_marginBottom="@dimen/pregunta_margin"
                 android:orientation="horizontal"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent">
@@ -67,224 +68,27 @@
                     />
             </LinearLayout>
             <LinearLayout
-                android:background="@drawable/cajas_de_texto"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/layout_margin"
-                android:layout_marginTop="@dimen/layout_margin"
-                >
-                <LinearLayout
-                    android:id="@+id/pregunta1"
-                    android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_margin="5dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/cap300_pregunta1"
-                        />
-                    <LinearLayout
-                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cap300_discapacidad"
                     android:padding="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                    <TextView
-                        android:layout_gravity="center_vertical"
-                        android:text="@string/c300p1_rpta1"
-                        android:layout_weight="2"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"/>
-                    <RadioGroup
-                        android:layout_gravity="center_vertical"
-                        android:orientation="horizontal"
-                        android:layout_weight="1"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content">
-                        <RadioButton
-                            android:layout_weight="1"
-                            android:text="@string/texto_si"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioButton
-                            android:layout_weight="1"
-                            android:text="@string/texto_no"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                    </RadioGroup>
-                </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta2"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta3"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta4"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta5"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta6"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-
-
-                </LinearLayout>
+                    android:layout_marginBottom="@dimen/pregunta_margin"
+                    android:gravity="center"
+                    android:background="@color/accent"
+                    android:textColor="@color/icons"/>
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:background="@drawable/cajas_de_texto"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/layout_margin"
-                android:layout_marginTop="@dimen/layout_margin"
-                >
-                <LinearLayout
-                    android:id="@+id/pregunta1"
+                    android:id="@+id/cap300_pregunta1"
+                    android:padding="5dp"
+                    android:background="@drawable/cajas_de_texto"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pregunta_margin"
+                    >
                     <TextView
                         android:layout_margin="5dp"
                         android:padding="5dp"
@@ -466,31 +270,25 @@
                                 android:layout_height="wrap_content"/>
                         </RadioGroup>
                     </LinearLayout>
-
-
                 </LinearLayout>
-                <LinearLayout
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                </LinearLayout>
+                    android:layout_height="wrap_content"
+                    android:text="@string/cap300_educacion"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/pregunta_margin"
+                    android:gravity="center"
+                    android:background="@color/accent"
+                    android:textColor="@color/icons"/>
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:background="@drawable/cajas_de_texto"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/layout_margin"
-                android:layout_marginTop="@dimen/layout_margin"
-                >
-                <LinearLayout
-                    android:id="@+id/pregunta1"
+                    android:id="@+id/cap300_pregunta2"
+                    android:padding="5dp"
+                    android:background="@drawable/cajas_de_texto"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pregunta_margin"
+                    >
                     <TextView
                         android:layout_margin="5dp"
                         android:padding="5dp"
@@ -672,49 +470,27 @@
                                 android:layout_height="wrap_content"/>
                         </RadioGroup>
                     </LinearLayout>
-
-
                 </LinearLayout>
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:background="@drawable/cajas_de_texto"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/layout_margin"
-                android:layout_marginTop="@dimen/layout_margin"
-                >
-                <LinearLayout
-                    android:id="@+id/pregunta1"
+                    android:id="@+id/cap300_pregunta3"
+                    android:padding="5dp"
+                    android:background="@drawable/cajas_de_texto"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pregunta_margin">
                     <TextView
                         android:layout_margin="5dp"
                         android:padding="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/cap300_pregunta1"
+                        android:text="@string/cap300_pregunta3"
                         />
                     <LinearLayout
                         android:layout_marginLeft="20dp"
                         android:padding="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta1"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
                         <RadioGroup
                             android:layout_gravity="center_vertical"
                             android:orientation="horizontal"
@@ -733,194 +509,210 @@
                                 android:layout_height="wrap_content"/>
                         </RadioGroup>
                     </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta2"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta3"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta4"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta5"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta6"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-
-
                 </LinearLayout>
-                <LinearLayout
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                </LinearLayout>
+                    android:layout_height="wrap_content"
+                    android:text="@string/cap300_autoidentificacion"
+                    android:padding="5dp"
+                    android:layout_marginBottom="@dimen/pregunta_margin"
+                    android:gravity="center"
+                    android:background="@color/accent"
+                    android:textColor="@color/icons"/>
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:background="@drawable/cajas_de_texto"
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/layout_margin"
-                android:layout_marginTop="@dimen/layout_margin"
-                >
-                <LinearLayout
-                    android:id="@+id/pregunta1"
+                    android:id="@+id/cap300_pregunta4"
+                    android:padding="5dp"
+                    android:background="@drawable/cajas_de_texto"
                     android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pregunta_margin"
+                    >
                     <TextView
                         android:layout_margin="5dp"
                         android:padding="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/cap300_pregunta1"
+                        android:text="@string/cap300_pregunta4"
+                        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioGroup
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <RadioButton
+                                android:id="@+id/radioButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/c300p4_rpta1" />
+
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p4_rpta2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <RadioButton
+                                    android:text="@string/c300p4_rpta3"
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"/>
+                                <EditText
+                                    android:inputType="text"
+                                    android:background="@drawable/cajas_de_texto"
+                                    android:padding="5dp"
+                                    android:hint="@string/texto_especifique"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content"/>
+                            </LinearLayout>
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p4_rpta4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p4_rpta5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <RadioButton
+                                    android:text="@string/c300p4_rpta6"
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"/>
+                                <EditText
+                                    android:inputType="text"
+                                    android:background="@drawable/cajas_de_texto"
+                                    android:padding="5dp"
+                                    android:hint="@string/texto_especifique"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p4_rpta7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/cap300_pregunta5"
+                    android:padding="5dp"
+                    android:background="@drawable/cajas_de_texto"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pregunta_margin"
+                    >
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cap300_pregunta5"
+                        />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_marginLeft="20dp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <RadioGroup
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p5_rpta1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p5_rpta2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p5_rpta3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p5_rpta4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p5_rpta5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/c300p5_rpta6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+                                <RadioButton
+                                    android:text="@string/texto_otroP1"
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"/>
+                                <EditText
+                                    android:inputType="text"
+                                    android:background="@drawable/cajas_de_texto"
+                                    android:padding="5dp"
+                                    android:hint="@string/texto_especifique"
+                                    android:layout_width="300dp"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                            <RadioButton
+                                android:layout_weight="1"
+                                android:text="@string/texto_nosabe"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"/>
+                        </RadioGroup>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/cap300_pregunta6"
+                    android:padding="5dp"
+                    android:background="@drawable/cajas_de_texto"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pregunta_margin">
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cap300_pregunta3"
                         />
                     <LinearLayout
                         android:layout_marginLeft="20dp"
                         android:padding="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta1"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
                         <RadioGroup
                             android:layout_gravity="center_vertical"
                             android:orientation="horizontal"
@@ -937,163 +729,44 @@
                                 android:text="@string/texto_no"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta2"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
                             <RadioButton
                                 android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta3"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta4"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta5"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                        </RadioGroup>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:layout_marginLeft="20dp"
-                        android:padding="5dp"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
-                        <TextView
-                            android:layout_gravity="center_vertical"
-                            android:text="@string/c300p1_rpta6"
-                            android:layout_weight="2"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"/>
-                        <RadioGroup
-                            android:layout_gravity="center_vertical"
-                            android:orientation="horizontal"
-                            android:layout_weight="1"
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content">
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_si"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"/>
-                            <RadioButton
-                                android:layout_weight="1"
-                                android:text="@string/texto_no"
+                                android:text="@string/texto_nosabe"
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"/>
                         </RadioGroup>
                     </LinearLayout>
 
-
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/cap300_pregunta7"
+                    android:padding="5dp"
+                    android:background="@drawable/cajas_de_texto"
+                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/pregunta_margin">
+                    <TextView
+                        android:layout_margin="5dp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cap300_pregunta7"
+                        />
+                    <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:padding="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <EditText
+                            android:inputType="text"
+                            android:padding="5dp"
+                            android:background="@drawable/cajas_de_texto"
+                            android:hint="@string/texto_especifique"
+                            android:layout_width="500dp"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

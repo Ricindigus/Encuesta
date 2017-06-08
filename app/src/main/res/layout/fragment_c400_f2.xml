@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pe.gob.inei.encuesta.fragments.capitulo300.C300F4Fragment">
+    tools:context="pe.gob.inei.encuesta.fragments.capitulo400.C400F2Fragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
