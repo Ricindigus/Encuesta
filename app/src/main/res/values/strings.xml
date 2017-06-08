@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Encuesta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Textos Genericos-->
+    <string name="texto_si">Sí</string>
+    <string name="texto_no">No</string>
+    <string name="texto_nosabe">NO SABE</string>
+    <string name="texto_otroP1">Otro?</string>
+    <string name="texto_otroP2">¿Otro?</string>
+    <string name="texto_otroN">Otro</string>
+    <string name="texto_especifique">Especifique</string>
+    <string name="texto_al">AL</string>
+    <string name="texto_informante">INFORMANTE N°:</string>
+    <string name="texto_nombre">NOMBRE:</string>
+
+
+    <!--##############################################################################################################-->
+
+    <!--###################################CAPITULO 100###################################-->
+    <string name="capitulo100">CAPÍTULO 100: DATOS DE LA VIVIENDA (Jefe/a del hogar o persona de 18 y más años de edad)</string>
+    <!--##############################################################################################################-->
+
+    <!--###################################CAPITULO 200###################################-->
+    <string name="capitulo200">CAPÍTULO 200: CARACTERÍSTICAS DE LOS RESIDENTES HABITUALES DEL HOGAR (Jefe/a del hogar o persona de 18 y más años de edad)</string>
+    <!--##############################################################################################################-->
+
+    <!--##########################################CAPITULO 300##################################-->
+    <string name="capitulo300">CAPÍTULO 300: CARACTERÍSTICAS GENERALES DE LA PERSONA SELECCIONADA</string>
+    <!--pregunta 1-->
+    <string name="cap300_pregunta1">1.¿TIENE USTED LIMITACIONES DE FORMA PERMANENTE, PARA:</string>
+    <string name="c300p1_rpta1">1.Moverse o caminar para usar brazos o piernas?</string>
+    <string name="c300p1_rpta2">2.Ver, aun usando anteojos?</string>
+    <string name="c300p1_rpta3">3.Hablar o comunicarse, aun usando el lenguaje de señas u otro?</string>
+    <string name="c300p1_rpta4">4.Oír, aun usando audífonos?</string>
+    <string name="c300p1_rpta5">5.Entender o aprender, concentrarse y recordar?</string>
+    <string name="c300p1_rpta6">6.Relacionarse con los demás, por sus pensamientos, sentimientos, emociones o conductas?</string>
+    <!--pregunta 2-->
+    <string name="cap300_pregunta2">2.¿CUÁL ES EL ÚLTIMO AÑO DE ESTUDIOS O GRADO QUE APROBÓ</string>
+    <!--pregunta 3-->
+    <string name="cap300_pregunta3">3.ACTUALMENTE, ¿ASISTE A ALGUNA INSTITUCIÓN O PROGRAMA DE EDUCACIÓN BÁSICA (INICIAL, PRIMARIA O SECUNDARIA)?</string>
+    <!--pregunta 4-->
+    <string name="cap300_pregunta4">4.¿CUÁL ES EL IDIOMA O LENGUA MATERNA QUE APRENDIÓ EN SU NIÑEZ:</string>
+    <string name="c300p4_rpta1">Quechua?</string>
+    <string name="c300p4_rpta2">Aymara?</string>
+    <string name="c300p4_rpta3">Otra lengua nativa?</string>
+    <string name="c300p4_rpta4">Castellano?</string>
+    <string name="c300p4_rpta5">Portugués?</string>
+    <string name="c300p4_rpta6">Otra lengua extranjera?</string>
+    <string name="c300p4_rpta7">ES SORDOMUDO/A</string>
+    <!--pregunta 5-->
+    <string name="cap300_pregunta5">5.POR SUS ANTEPASADOS Y DE ACUERDO A SUS COSTUMBRES, ¿USTED SE CONSIDERA:</string>
+    <string name="c300p5_rpta1">Quechua?</string>
+    <string name="c300p5_rpta2">Aymara?</string>
+    <string name="c300p5_rpta3">Nativo o Indígena de la Amazonía?</string>
+    <string name="c300p5_rpta4">Negro / Mulato / Zambo / Afro peruano?</string>
+    <string name="c300p5_rpta5">Blanco?</string>
+    <string name="c300p5_rpta6">Mestizo?</string>
+    <!--pregunta 6-->
+    <string name="cap300_pregunta6">6.¿USTED PERTENECE O SE CONSIDERA PARTE DE UN PUEBLO INDÍGENA?</string>
+    <!--pregunta 7-->
+    <string name="cap300_pregunta7">7.¿A QUÉ PUEBLO INDÍGENA PERTENECE?</string>
+    <!--pregunta 8-->
+    <string name="cap300_pregunta8_1">8.LA SEMANA PASADA DEL </string>
+    <string name="cap300_pregunta8_2">, ¿USTED, TUVO ALGÚN TRABAJO, SIN CONTAR LOS QUEHACERES DEL HOGAR?</string>
+    <!--pregunta 9-->
+    <string name="cap300_pregunta9_1">9.AUNQUE NO TRABAJÓ LA SEMANA PASADA DEL </string>
+    <string name="cap300_pregunta9_2">, ¿TIENE ALGÚN EMPLEO FIJO AL QUE PROXIMAMENTE VOLVERÁ?</string>
+    <!--pregunta 10-->
+    <string name="cap300_pregunta10_1">10.AUNQUE NO TRABAJÓ LA SEMANA PASADA DEL </string>
+    <string name="cap300_pregunta10_2">, ¿TIENE ALGÚN NEGOCIO PROPIO AL QUE PROXIMAMENTE VOLVERÁ?</string>
+    <!--pregunta 11-->
+    <string name="cap300_pregunta11_1">11.LA SEMANA PASADA DEL </string>
+    <string name="cap300_pregunta11_2">, ¿REALIZÓ ALGUNA ACTIVIDAD AL MENOS UNA HORA PARA OBTENER INGRESOS EN DINERO O EN ESPECIE, COMO:</string>
+    <string name="c300p11_rpta1">1.Trabajando en algún negocio propio o de un familiar? </string>
+    <string name="c300p11_rpta2">2.Ofreciendo algún servicio?</string>
+    <string name="c300p11_rpta3">3.Haciendo algo en casa para vender?</string>
+    <string name="c300p11_rpta4">4.Vendiendo productos de belleza, ropa, joyas, etc.?</string>
+    <string name="c300p11_rpta5">5.Haciendo prácticas pagadas en un centro de trabajo?</string>
+    <string name="c300p11_rpta6">6.Trabajando para un hogar particular?</string>
+    <string name="c300p11_rpta7">7.Fabricando algún producto?</string>
+    <string name="c300p11_rpta8">8.Realizando labores remuneradas en la chacra o cuidado de animales?</string>
+    <string name="c300p11_rpta9">9.Ayudando a un familiar sin remuneración?</string>
+    <!--pregunta 12-->
+    <string name="cap300_pregunta12_1">12.LA SEMANA PASADA DEL </string>
+    <string name="cap300_pregunta12_2"> ¿A QUÉ ACTIVIDAD SE DEDICÓ EL NEGOCIO, ORGANISMO O EMPRESA EN LA QUE TRABAJÓ?</string>
+    <string name="c300p12_rpta1">Agrícola</string>
+    <string name="c300p12_rpta2">Pecuaria</string>
+    <string name="c300p12_rpta3">Forestal</string>
+    <string name="c300p12_rpta4">Pesquera</string>
+    <string name="c300p12_rpta5">Minera</string>
+    <string name="c300p12_rpta6">Artesanal</string>
+    <string name="c300p12_rpta7">Comercial</string>
+    <string name="c300p12_rpta8">Servicios</string>
+    <string name="c300p12_rpta9">Estado (Gobierno)</string>
+    <!--pregunta 13-->
+    <string name="cap300_pregunta13">13.USTED SE DESEMPEÑÓ EN SU OCUPACIÓN PRINCIPAL O NEGOCIO COMO:</string>
+    <string name="c300p13_rpta1">¿Empleador o patrono?</string>
+    <string name="c300p13_rpta2">¿Trabajador independiente?</string>
+    <string name="c300p13_rpta3">¿Empleado?</string>
+    <string name="c300p13_rpta4">¿Obrero?</string>
+    <string name="c300p13_rpta5">¿Trabajador familiar no remunerado?</string>
+    <string name="c300p13_rpta6">¿Trabajador del hogar?</string>
+    <!--pregunta 14-->
+    <string name="cap300_pregunta14">14.EN SUS OCUPACIONES, ¿CUÁL FUE SU INGRESO EN EL MES ANTERIOR?</string>
+    <string name="c300p14_monetario">Monetario</string>
+    <string name="c300p14_especie">En especie</string>
+    <string name="c300p14_enteros">Soles (En enteros)</string>
+    <!--pregunta 15-->
+    <string name="cap300_pregunta15_1">15.LA SEMANA PASADA DEL </string>
+    <string name="cap300_pregunta15_2">,  ¿USTED, QUERÍA TRABAJAR?</string>
+    <!--pregunta 16-->
+    <string name="cap300_pregunta16_1">16.LA SEMANA PASADA DEL </string>
+    <string name="cap300_pregunta16_2">,¿ESTUVO DISPONIBLE PARA TRABAJAR?</string>
+    <!--pregunta 17-->
+    <string name="cap300_pregunta17_1">17.LA SEMANA PASADA DEL </string>
+    <string name="cap300_pregunta17_2">,¿HIZO ALGO PARA CONSEGUIR TRABAJO?</string>
+    <!--pregunta 18-->
+    <string name="cap300_pregunta18">18.¿CUÁNTAS SEMANAS HA ESTADO BUSCANDO TRABAJO SIN INTERRUPCIONES?</string>
+    <string name="c300p18_numero_semanas">Número de semanas</string>
+    <!--##############################################################################################################-->
+
+    <!--###################################CAPITULO 400###################################-->
+    <string name="capitulo400">CAPÍTULO 400: PERCEPCIÓN DE INSEGURIDAD (Persona seleccionada)</string>
+    <!--##############################################################################################################-->
+
+    <!--###################################CAPITULO 500###################################-->
+    <string name="capitulo500">CAPÍTULO 500: PREGUNTAS FILTRO (Persona seleccionada)</string>
+    <!--##############################################################################################################-->
+
+    <!--###################################CAPITULO 600###################################-->
+    <string name="capitulo600">CAPÍTULO 600: CARACTERIZACIÓN DE LOS HECHOS DELICTIVOS COMETIDOS A LA PERSONA</string>
+
+    <!--##############################################################################################################-->
+
+</resources>
