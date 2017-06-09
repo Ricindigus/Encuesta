@@ -14,7 +14,8 @@
     <string name="texto_al">AL</string>
     <string name="texto_informante">INFORMANTE N°:</string>
     <string name="texto_nombre">NOMBRE:</string>
-
+    <string name="texto_observaciones">OBSERVACIONES:</string>
+    <string name="texto_ninguna">NINGUNA</string>
 
     <!--##############################################################################################################-->
 
@@ -135,10 +136,164 @@
 
     <!--###################################CAPITULO 400###################################-->
     <string name="capitulo400">CAPÍTULO 400: PERCEPCIÓN DE INSEGURIDAD (Persona seleccionada)</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="cap400_percepcion">PERCEPCIÓN DE INSEGURIDAD</string>
+    <string name="cap400_percepcion_desc">Ahora, me gustaría hacerle algunas preguntas sobre las medidas de su seguridad personal y la de su entorno.</string>
+    <!--pregunta 1-->
+    <string name="cap400_pregunta1">PERCEPCIÓN DE INSEGURIDAD</string>
+    <string name="c400p1_rpta1">1.En su casa?</string>
+    <string name="c400p1_rpta2">2.En su lugar de trabajo?</string>
+    <string name="c400p1_rpta3">3.Caminando por la calle?</string>
+    <string name="c400p1_rpta4">4.En su institución educativa?</string>
+    <string name="c400p1_rpta5">5.En el mercado?</string>
+    <string name="c400p1_rpta6">6.En el centro comercial?</string>
+    <string name="c400p1_rpta7">7.En el banco?</string>
+    <string name="c400p1_rpta8">8.En el cajero automático?</string>
+    <string name="c400p1_rpta9">9.En el parque?</string>
+    <string name="c400p1_rpta10">10.En el transporte público?</string>
+    <string name="c400p1_rpta11">11.En un vehículo propio?</string>
+    <string name="c400p1_cod1">Muy Inseguro?</string>
+    <string name="c400p1_cod2">Inseguro??</string>
+    <string name="c400p1_cod3">Seguro</string>
+    <string name="c400p1_cod4">Muy seguro?</string>
+    <string name="c400p1_cod5">NO APLICA</string>
+    <!--pregunta 2-->
+    <string name="cap400_pregunta2">¿QUÉ TAN SEGURO SE SIENTE CAMINANDO EN SU ZONA O BARRIO DE NOCHE Y SOLO:</string>
+    <string name="c400p2_rpta1">Muy inseguro?</string>
+    <string name="c400p2_rpta2">Inseguro?</string>
+    <string name="c400p2_rpta3">Seguro?</string>
+    <string name="c400p2_rpta4">Muy seguro?</string>
+    <!--pregunta 3-->
+    <string name="cap400_pregunta3">¿SABE O A ESCUCHADO SI EN LOS ALREDEDORES DE SU VIVIENDA SUCEDEN O HAN SUCEDIDO LAS SIGUIENTES SITUACIONES DURANTE LOS ÚLTIMOS 12 MESES, ES DECIR ENTRE JUN 15 Y MAY 16.</string>
+    <string name="c400p3_rpta1">¿Riñas o peleas en la calle?</string>
+    <string name="c400p3_rpta2">¿Reuniones de pandillas o bandas?</string>
+    <string name="c400p3_rpta3">¿Venta de productos falsificados?</string>
+    <string name="c400p3_rpta4">¿Consumo de bebidas alcohólicas en la calle?</string>
+    <string name="c400p3_rpta5">¿Venta clandestina de alcohol?</string>
+    <string name="c400p3_rpta6">¿Consumo de droga en la calle?</string>
+    <string name="c400p3_rpta7">¿Venta de droga en la calle?</string>
+    <string name="c400p3_rpta8">¿Vandalismo?</string>
+    <string name="c400p3_rpta9">¿Calles sin iluminación?</string>
+    <string name="c400p3_rpta10">¿Prostitución?</string>
+    <string name="c400p3_rpta11">¿Disparos frecuentes?</string>
+    <!--pregunta 4-->
+    <string name="cap400_pregunta4">EN LOS PRÓXIMOS 12 MESES DE JUL 16 Y JUN 17, ¿USTED CREE QUE PODRÍA SER VÍCTIMA DE ALGÚN HECHO DELICTIVO POR EL TIPO DE ACTIVIDADES QUE REALIZA O EN LOS LUGARES POR LOS QUE TRANSITA NORMALMENTE?</string>
+    <!--pregunta 5-->
+    <string name="cap400_pregunta5">¿DE CUÁL HECHO DELICTIVO?</string>
+    <string name="c400p5_rpta1">Robo de vehículo automotor</string>
+    <string name="c400p5_rpta2">Robo de vivienda</string>
+    <string name="c400p5_rpta3">Robo sin violencia de sus objetos personales (cartera,mochila, celular)</string>
+    <string name="c400p5_rpta4">Robo con violencia de sus objetos personales (cartera,mochila, celular)</string>
+    <string name="c400p5_rpta5">Fraude bancario</string>
+    <string name="c400p5_rpta6">Estafa (fraude al consumidor)</string>
+    <string name="c400p5_rpta7">Vandalismo</string>
+    <string name="c400p5_rpta8">Amenaza</string>
+    <string name="c400p5_rpta9">Extorsión</string>
+    <string name="c400p5_rpta10">Corrupción</string>
+    <string name="c400p5_rpta11">Agresión verbal</string>
+    <string name="c400p5_rpta12">Agresión física</string>
+    <string name="c400p5_rpta13">Agresión sexual</string>
+    <string name="c400p5_rpta14">Secuestro</string>
+    <!--pregunta 6-->
+    <string name="cap400_pregunta6">EN COMPARACIÓN CON LOS ÚLTIMOS 12 MESES DE JUN 15 Y MAY 16, ¿USTED, DIRÍA QUE LA DELINCUENCIA:</string>
+    <string name="c400p6_rpta1">1.En su barrio</string>
+    <string name="c400p6_rpta2">2.En su distrito, pero no en su barrio</string>
+    <string name="c400p6_rpta3">3.En su provincia</string>
+    <string name="c400p6_rpta4">4.En su departamento</string>
+    <string name="c400p6_rpta5">5.En su país</string>
+    <string name="c400p6_cod1">Ha disminuido?</string>
+    <string name="c400p6_cod2">Se mantiene igual?</string>
+    <string name="c400p6_cod3">Ha aumentado?</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="cap400_medidas">MEDIDAS DE SEGURIDAD</string>
+    <string name="cap400_medidas_desc">Ahora, me gustaría hacerle algunas preguntas sobre las medidas
+        de seguridad que haya tomado para protegerse de la delincuencia, y sobre la efectividad que usted piensa caracteriza a ciertas
+        instituciones.</string>
+    <!--pregunta 7-->
+    <string name="cap400_pregunta7">¿PODRÍA USTED INDICARME SI EN SU HOGAR SE HA INSTALADO O ADOPTADO ALGÚN TIPO DE MEDIDA PARA PREVENIR O PROTEGERSE DE LA DELINCUENCIA?</string>
+    <!--pregunta 8-->
+    <string name="cap400_pregunta8">DÍGAME USTED, ¿CON QUÉ MEDIDAS DE SEGURIDAD CUENTA ACTUALMENTE:</string>
+    <string name="c400p8_rpta1">1. Puerta blindada?</string>
+    <string name="c400p8_rpta2">2. Rejas en las ventanas?</string>
+    <string name="c400p8_rpta3">3. Cerraduras especiales en las puertas?</string>
+    <string name="c400p8_rpta4">4. Alarma contra robo?</string>
+    <string name="c400p8_rpta5">5. Cámara de vigilancia?</string>
+    <string name="c400p8_rpta6">6. Muros más altos?</string>
+    <string name="c400p8_rpta7">7. Perro guardián?</string>
+    <string name="c400p8_rpta8">8. Vigilante particular?</string>
+    <string name="c400p8_rpta9">9. Tienen un plan de vigilancia entre vecinos?</string>
+    <string name="c400p8_rpta10">10. Acuerdos informales con los vecinos para vigilar las casas?</string>
+    <string name="c400p8_rpta11">11. Han comprado un arma de fuego?</string>
+    <string name="c400p8_rpta12">12. Cercos y/o rejas perimétricas (altos/bajos), púas, alambres con púas, vidrio?</string>
+    <!--pregunta 9-->
+    <string name="cap400_pregunta9"></string>
+    <string name="c400p9_soles">Soles (En enteros)</string>
+    <string name="c400p9_letras">Letras</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="capp400_habitos">CAMBIO DE HÁBITOS</string>
+    <!--pregunta 10-->
+    <string name="cap400_pregunta10">EN LOS ÚLTIMOS 12 MESES, DE JUN 15 A MAY 16, TENIENDO EN CUENTA EL CONTEXTO DE SEGURIDAD ¿HA DEJADO DE HACER ALGUNA DE LAS SIGUIENTES ACTIVIDADES:</string>
+    <string name="c400p10_rpta1">1. Salir de noche?</string>
+    <string name="c400p10_rpta2">2. Permitir que sus hijos menores de edad salgan solos?</string>
+    <string name="c400p10_rpta3">3. Visitar parientes o amigos?</string>
+    <string name="c400p10_rpta4">4. Tomar taxis en la calle?</string>
+    <string name="c400p10_rpta5">5. Usar transporte público?</string>
+    <string name="c400p10_rpta6">6. Llevar mucho dinero en efectivo?</string>
+    <string name="c400p10_rpta7">7. Ir a la Institución Educativa, Institutos Tecnológicos, Universidad, etc.?</string>
+    <string name="c400p10_rpta8">8. Ir al cine o al teatro?</string>
+    <string name="c400p10_rpta9">9. Salir a caminar?</string>
+    <string name="c400p10_rpta10">10. Usar joyas?</string>
+    <string name="c400p10_rpta11">11. Salir a comer?</string>
+    <string name="c400p10_rpta12">12. Llevar consigo tarjetas de crédito o débito?</string>
+    <string name="c400p10_rpta13">13. Ir al estadio?</string>
+    <string name="c400p10_rpta14">14. Frecuentar centros comerciales?</string>
+    <string name="c400p10_rpta15">15. Viajar por carretera a otra provincia/departamento?</string>
+    <string name="c400p10_rpta16">16. Dejar la casa sola?</string>
+    <string name="c400p10_rpta17">17. Llegar muy tarde a casa?</string>
+    <!--pregunta 11-->
+    <string name="cap400_pregunta11"></string>
+    <string name="c400p11_rpta1"></string>
+    <string name="c400p11_rpta2"></string>
+    <string name="c400p11_rpta3"></string>
+    <string name="c400p11_rpta4"></string>
+    <string name="c400p11_rpta5"></string>
+    <string name="c400p11_rpta6"></string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="capp400_participacion">PARTICIPACIÓN CIUDADANA</string>
+    <!--pregunta 12-->
+    <string name="cap400_pregunta12">DE LAS SIGUIENTES ORGANIZACIONES VECINALES DE SEGURIDAD CIUDADANA, ¿USTED PARTICIPA EN: </string>
+    <string name="c400p12_rpta1">Junta Vecinal de Seguridad Ciudadana?</string>
+    <string name="c400p12_rpta2">Red de Cooperantes para la Seguridad Ciudadana?</string>
+    <string name="c400p12_rpta3">Brigadas de Autoprotección Escolar(BAPES)?</string>
+    <string name="c400p12_rpta4">Patrulla Juvenil?</string>
+    <string name="c400p12_rpta5">Policía Escolar?</string>
+    <!-- * * * * * TIPO * * * * * -->
+    <string name="capp400_medios_comunicacion">MEDIOS DE COMUNICACIÓN</string>
+    <!--pregunta 13-->
+    <string name="cap400_pregunta13">¿CÓMO SE ENTERA USTED DE LO QUE OCURRE EN MATERIA DE SEGURIDAD CIUDADANA ¿CON QUE FRECUENCIA? EN EL PAÍS Y SU DEPARTAMENTO?</string>
+    <string name="c400p13_rpta1">Por noticieros de radio</string>
+    <string name="c400p13_rpta2">Por noticieros de televisión</string>
+    <string name="c400p13_rpta3">Por la prensa (escrita)</string>
+    <string name="c400p13_rpta4">En reuniones familiares/amigos</string>
+    <string name="c400p13_rpta5">Por compañeros de trabajo/vecinos</string>
+    <string name="c400p13_rpta6">Otro (redes sociales)</string>
+    <string name="c400p13_cod1">Diario</string>
+    <string name="c400p13_cod2">Interdiario</string>
+    <string name="c400p13_cod3">Semanal</string>
+    <string name="c400p13_cod4">Quincenal</string>
+    <string name="c400p13_cod5">Mensual</string>
+    <string name="c400p13_cod6">Otro</string>
+    <!--pregunta 14-->
+    <string name="cap400_pregunta14">¿CONSIDERA USTED QUE EL TIEMPO O ESPACIO QUE LOS MEDIOS DE COMUNICACIÓN BRINDAN A LAS NOTICIAS SOBRE LOS HECHOS DELICTIVOS ES:</string>
+    <string name="c400p14_rpta1">Mucho?</string>
+    <string name="c400p14_rpta2">Regular?</string>
+    <string name="c400p14_rpta3">Poco?</string>
+    <string name="c400p14_rpta4">Nada?</string>
     <!--##############################################################################################################-->
 
     <!--###################################CAPITULO 500###################################-->
     <string name="capitulo500">CAPÍTULO 500: PREGUNTAS FILTRO (Persona seleccionada)</string>
+
     <!--##############################################################################################################-->
 
     <!--###################################CAPITULO 600###################################-->

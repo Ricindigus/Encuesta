@@ -5,9 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="pe.gob.inei.encuesta.activities.EncuestaActivity">
-    <FrameLayout
-        android:id="@+id/contenedor"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    </FrameLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="cap300f1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clickCap300F1"/>
+            <Button
+                android:text="cap300f2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="clickCap300F2"/>
+            <Button
+                android:text="cap400f1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="cap400f2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/contenedor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+    </LinearLayout>
+
 </android.support.design.widget.CoordinatorLayout>
